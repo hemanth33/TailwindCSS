@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <title>Home</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Hover State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-orange-500 hover:text-white"
+    >
+      Submit
+    </button>
+
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-green-500 hover:text-white"
+    >
+      Submit
+    </button>
+
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-teal-500 hover:text-white"
+    >
+      Submit
+    </button>
+
+    <!-- Styling based on parent state -->
+    <a
+      href=""
+      class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-200"
+    >
+      <h3 class="group-hover:text-white">I'm a Text.</h3>
+      <p class="group-hover:text-white">I'm a friend of the Text.</p>
+    </a>
+
+    <a href="#item" class="block my-6">Go to item</a>
+
+    <!-- Pseudo Classes -->
+    <ul class="space-y-2">
+      <li class="first:bg-red-200">Item1</li>
+      <li class="first:bg-red-100 odd:bg-pink-100 even:bg-green-100">Item2</li>
+      <li class="first:bg-red-100 odd:bg-pink-100 even:bg-green-100">Item3</li>
+      <li class="first:bg-red-100 odd:bg-pink-100 even:bg-green-100">Item4</li>
+      <li class="first:bg-red-100 odd:bg-pink-100 even:bg-green-100">Item5</li>
+    </ul>
+
+    <!-- Appearance -->
+    <select class="appearance-none">
+      <option value="yes">YES</option>
+      <option value="no">NO</option>
+    </select>
+
+    <!-- Cursor -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-pointer">
+      Submit
+    </button>
+
+    <!-- User Select -->
+    <div class="select-none">Lorem ipsum, dolor sit.</div>
+    <div class="select-auto">Lorem ipsum, dolor sit.</div>
+    <div class="select-all">Lorem ipsum, dolor sit.</div>
+
+    <!-- Smooth Scroll -->
+    <p id="item">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo,
+      deserunt architecto ipsum dolorum sapiente veniam veritatis perspiciatis
+      ex, deleniti amet iusto. Facere sed nisi blanditiis! Doloremque cupiditate
+      quaerat quis laudantium autem iusto ipsum ea ad, aut sequi ullam laborum
+      saepe ut minus natus ab fugiat quisquam id! Quia, officia neque.
+    </p>
+  </body>
+</html>
