@@ -1,0 +1,20 @@
+{
+  "name": "stackblitz-starters-ycbtkdby",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "servor": "^4.0.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  },
+  "scripts": {
+    "start": "servor --reload",
+    "watch": "npx tailwindcss -i ./input.css -o ./css/style.css --watch",
+    "build": "npx tailwindcss -i ./input.css -o ./css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
